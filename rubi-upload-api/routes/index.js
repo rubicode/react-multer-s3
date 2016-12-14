@@ -11,8 +11,8 @@ router.get('/', function(req, res, next) {
 
 
 var s3 = new AWS.S3({
-    accessKeyId:'AKIAI4AWAB6B4MMOHKYA',
-    secretAccessKey: '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'
+    accessKeyId:'',
+    secretAccessKey: ''
 });
 console.log(s3);
 var upload = multer({
